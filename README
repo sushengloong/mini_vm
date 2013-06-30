@@ -1,0 +1,5 @@
+minimalist vm provisioning with vagrant, berksfile and chef solo
+
+bundle
+vagrant up
+vagrant ssh
