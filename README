@@ -1,5 +1,8 @@
 minimalist vm provisioning with vagrant, berksfile and chef solo
 
-bundle
+Install Virtualbox (https://www.virtualbox.org/wiki/Downloads)
+Install Vagrant (http://downloads.vagrantup.com/)
+gem install berkshelf
+vagrant plugin install vagrant-berkshelf
 vagrant up
 vagrant ssh

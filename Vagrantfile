@@ -85,6 +85,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "build-essential"
     chef.add_recipe "git"
     chef.add_recipe "vim"
+    chef.add_recipe "tmux"
     chef.add_recipe "ruby"
     # chef.add_role "web"
 
